@@ -3,7 +3,7 @@
   "children": [
     {
       "name": "產品 A",
-      "type": "類型",
+      "type": "prpject",
       "children": [
         {
           "name": "工廠1",
@@ -71,7 +71,7 @@
     },
     {
       "name": "產品 B",
-      "type": "類型",
+      "type": "prpject",
       "children": [
         {
           "name": "工廠3",

@@ -44,6 +44,7 @@
 <body>
     <div id="tooltip" class="hidden">
         <p id="city"></p>
+        <p><strong id="name"></strong></p>
         <p id="nlb"></p>
         <p id="location"></p>
         <p id="recycle"></p>
@@ -134,7 +135,7 @@
                                 top: (posY + 12) + "px"
                             })
                         //替換tooltip內容(選擇其id後，修改內容)
-                        tooltip.select("#city").text(d.name);
+                        tooltip.select("#name").text(d.name);
                         tooltip.select("#location").text("");
                         tooltip.select("#recycle").text("");
                         tooltip.select("#nlb").text("");

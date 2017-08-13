@@ -1,0 +1,226 @@
+﻿{
+  "name": "台北",
+  "children": [
+    {
+      "name": "產品 A",
+      "type": "類型",
+      "children": [
+        {
+          "name": "工廠1",
+          "children": [
+            {
+              "name": "功能3 [12.77.25.191]",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "HQ-W01 [168.37.145.11]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "HQ-W02 [168.37.145.12]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                }
+              ]
+            },
+            {
+              "name": "功能1 [12.77.25.191]",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "HQ-W03 [168.37.145.13]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "HQ-W04 [168.37.145.14]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                }
+              ]
+            },
+            {
+              "name": "功能2 [12.77.25.191]",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "HQ-W05 [168.37.145.15]",
+                  "type": "server",
+                  "location": "C機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "HQ-W06 [168.37.145.16]",
+                  "type": "server",
+                  "location": "C機房",
+                  "recycle": "17:30"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "產品 B",
+      "type": "類型",
+      "children": [
+        {
+          "name": "工廠3",
+          "type": "類型",
+          "children": [
+            {
+              "name": "功能2 [12.77.25.193]",
+              "type": "function",
+              "nlb": "Nginx",
+              "children": [
+                {
+                  "name": "HQ-W07 [168.37.145.27]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "12:30"
+                },
+                {
+                  "name": "HQ-W08 [168.37.145.28]",
+                  "type": "server",
+                  "location": "C機房",
+                  "recycle": "12:30"
+                }
+              ]
+            },
+            {
+              "name": "功能3 [12.77.25.193]",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "HQ-W09 [168.37.145.23]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "12:30"
+                },
+                {
+                  "name": "HQ-W10 [168.37.145.24]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "12:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "工廠4",
+          "type": "類型",
+          "children": [
+            {
+              "name": "功能1 [12.77.25.194]",
+              "type": "function",
+              "nlb": "Nginx",
+              "children": [
+                {
+                  "name": "HQ-W11 [168.37.145.31]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "12:30"
+                },
+                {
+                  "name": "HQ-W112 [168.37.145.32]",
+                  "type": "server",
+                  "location": "C機房",
+                  "recycle": "08:30"
+                }
+              ]
+            },
+            {
+              "name": "功能2 [12.77.25.194]",
+              "type": "function",
+              "nlb": "Nginx",
+              "children": [
+                {
+                  "name": "HQ-W13 [168.37.145.33]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "08:30"
+                },
+                {
+                  "name": "HQ-W14 [168.37.145.34]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "08:30"
+                },
+                {
+                  "name": "HQ-W15 [168.37.145.25]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "08:30"
+                },
+                {
+                  "name": "HQ-W16 [168.37.145.26]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "08:30"
+                }
+              ]
+            },
+
+            {
+              "name": "功能3 [12.77.25.194]",
+              "type": "function",
+              "nlb": "Nginx",
+              "children": [
+                {
+                  "name": "HQ-W17 [168.37.145.29]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "08:30"
+                },
+                {
+                  "name": "HQ-W18 [168.37.145.30]",
+                  "type": "server",
+                  "location": "B機房",
+                  "recycle": "08:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "工廠2",
+          "type": "類型",
+          "children": [
+            {
+              "name": "功能2 [12.77.25.192]",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "HQ-W19 [168.37.145.21]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "08:30"
+                },
+                {
+                  "name": "HQ-W20 [168.37.145.22]",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "08:30"
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    }
+
+  ]
+}
